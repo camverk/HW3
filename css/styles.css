@@ -1,0 +1,533 @@
+
+body{
+	margin:0;
+	color: #222;
+	background-color: #ccc;
+	font-family:'Lato', Sans-serif;
+	font-weight: 300;
+	background-image: url("http://images-2.gog.com/bd575cec2618990a10bc61ac7cb0b46e44f66d703128430b61e1300511e86101.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+
+}
+
+
+h1, h2, h3, h4, h5, h6, ul, ol, p{
+	font-family:'Lato', Sans-serif;
+	font-weight: 300;
+}
+
+img {width: 100%}
+
+*,
+*:after,
+*:before{
+	box-sizing:border-box;
+}
+
+.wrap{
+	width: 1060px;
+	margin:0 auto;
+}
+
+.navcontainer{
+	padding-top:3px; 
+	background-color: purple;
+
+	box-shadow:0px 1px 3px 1px rgba(0,0,0,0.3);
+	height: 53px;
+}
+
+.nav img{
+	width: 50px;
+	height: 50px;
+	padding: 10px;
+	float: left;
+	margin-right:40px; 
+}
+
+.nav .topright{
+	float:right;
+	padding: 10px;
+	margin-top:6px;
+	color: #666;
+	font-size:12px;
+	font-weight: 400;
+}
+
+
+.topright .fa{
+	margin-left: 30px;
+
+	color: #999;
+	text-align: right;
+	font-size:18px;
+}
+.nav{
+	margin-top:5px;
+	background-color: #222;
+	height: 50px;
+	vertical-align: middle;
+
+
+}
+
+.nav .goglogo{
+	background-image: url("images/gog50.png");
+	width: 50px;
+	background-repeat-x: no-repeat;
+	height: 50px;
+	background-size:cover;
+
+}
+
+.nav ul {
+
+	list-style: none;
+	padding: 0;
+	margin:0;
+	display:inline-block;
+
+}
+
+.nav li {
+	font-size: 14px;
+	line-height: 50px;
+	vertical-align: middle;
+	display: inline-block;
+	padding-right: 30px;
+	text-transform: uppercase;
+	font-weight:400;
+
+
+}
+
+.nav li a{
+	text-decoration: none;
+	color: #ccc;
+}
+
+
+.nav .signin a{
+	color:#de8ae5;
+}
+
+
+.nav li a:hover{
+	text-decoration: none;
+	color:#fff;
+
+}
+
+
+.nav li a:after{
+	content: "\f107";
+	font-family: FontAwesome;
+	font-weight: 400;
+	font-style: normal;
+	margin:0px 0px 0px 5px;
+	text-decoration:none;
+	color:#ccc;
+	font-size: 10px;
+
+}
+
+
+.intro{
+	text-align: center;
+	padding:40px;
+
+}
+
+.intro h1{ 
+	font-size:38px;
+	margin:0; 
+	letter-spacing: 1px;
+}
+
+.intro p{ 
+	font-size: 14px;
+	margin:0; 
+	font-weight: 400;
+}
+
+.row{
+	margin-bottom: 20px;
+}
+
+.row:after{
+	content:"";
+	display: inline-block;
+	clear:both;
+}
+
+
+.row h2{
+	font-size: 16px;
+	margin-bottom:20px; 
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+.feature{
+	position: relative;
+	width: 340px;
+	height:420px;
+	margin-right:20px; 
+	background-color: #e1e1e1;
+	float:left;
+	box-shadow:0 3px 3px 0 #999; 
+	background-image: URL("http://images-3.gog.com/6bc6d5dddb06941b4389063415d2e3e3c4d7d7e9671a358ad25e48145b673ad4_default_bundle_390_2x.jpg");
+	background-size: cover;
+	text-align: center;
+	display: block;
+
+}
+
+
+.feature:last-child{
+	margin-right:0;
+}
+
+.feature .price{
+	position: absolute;
+	bottom: 0;
+	padding:20px;
+	text-align: center;
+	font-weight: 400;
+
+ 
+}
+
+/*buttons*/
+.btn-white{
+	border-radius: 4px;
+	display:inline-block;
+	border:1px solid #999;
+	background-color: rgba(255, 255, 255, .3) ;
+	color:#fff;
+	text-align: center;
+	padding:5px;
+	font-size: 16px; 
+	width: 120px;
+
+
+}
+
+.btn-white a:hover{
+
+	border-radius: 4px;
+	display:inline-block;
+	border:1px solid #000;
+	background-color: #abce00;
+	color:#fff;
+	text-align: center;
+	padding:5px;
+	font-size: 16px; 
+	width: 140px;
+
+}
+
+.btn-small{
+	font-size:70%; 
+	color: #999;
+	box-shadow:0 2px 2px 0 #ccc;
+	width: 60px;
+	padding:5px; 
+}
+
+.oldprice{
+	color:#ccc;
+	text-align: center;
+	padding-right:10px;
+	font-size: 11px; 
+	text-decoration: line-through;
+
+
+}
+.btn-grey{
+	border-radius: 4px;
+	display:inline-block;
+	border:0;
+	background-color: #788795;
+	color:#fff;
+	text-align: center;
+	padding:5px;
+	font-size: 16px; 
+	width: 60px;
+}
+
+.btn-orange{
+	border-radius: 4px;
+	display:inline-block;
+	border:0;
+	background-color: #ec721b;
+	color:#fff;
+	text-align: center;
+	padding:5px;
+	font-size: 16px; 
+	width: 60px;
+
+}
+
+
+
+.whatsnew{
+	width: 75%;
+
+	margin-right: 1.5%;
+	float: left;
+}
+
+.latestdeals{
+	width: 22.5%;
+
+	float: right;
+
+}
+
+.product{
+	position: relative;
+	width: 196px;
+	float: left;
+	background-color: #e1e1e1;
+	margin-right:20px; 
+	margin-top: 20px;
+	box-shadow:0 3px 3px 0 #999;
+}
+
+.product:last-child{
+	margin-right:0;
+
+}
+.textbox{
+	padding:10px;}
+
+	.textbox h3{
+		text-transform: capitalize;
+		font-weight: 400;
+		font-size:14px;
+		margin-top: 0; 
+	}
+
+	.textbox .fa{color:#999; font-size:12px;}
+
+	.clearfix{
+		content: "";
+		display: block;
+		clear:both;
+	}
+
+	.column{
+		margin-top: 20px;
+		width: 510px;
+		margin-right: 40px;
+		float:left;
+
+	}
+
+	.column:last-child{
+		margin-right:0;
+	}
+
+	.tabs ul {
+
+		list-style: none;
+		padding: 0;
+		margin-bottom:20px;
+	}
+
+	.tabs li {
+		font-size: 16px;
+		vertical-align: middle;
+		display: inline-block;
+		padding-right: 10px;
+		text-transform: uppercase;
+		font-weight:400;
+		color:#999;
+	}
+
+	.tabs li a{
+		text-decoration: none;
+		color: #999;
+	}
+
+	.tabs li a:active{
+		text-decoration: none;
+		color:#333;
+
+	}
+
+	.row .aboutgog{
+		background-image:URL("https://www.gog.com/bundles/gogwebsitefrontpage/img/about_gog_bg.58b9bb1f.png");
+
+	}
+
+
+
+	.aboutgog{
+		display: block;
+		width: 170px;
+		float: left;
+		background-color: #788592;
+		border-right:1px solid #999; 
+		text-align: center;
+		color: #fff;
+		padding:19px;
+		height:120px;
+		vertical-align: middle;
+	}
+
+	.aboutgog h3{margin:0px;
+		font-size:14px;
+	}
+
+	.aboutgog p{margin:0;
+		font-size:12px;
+	}
+
+	.aboutgog a {
+		display:block;
+		text-decoration: none;
+		color: #fff;
+	}
+
+	.aboutgog a:hover {
+		text-decoration: none;
+		color: #fff;
+		text-shadow:#fff 0 0 50px;
+
+	}
+
+
+	.aboutgog .fa{font-size:30px;
+		margin-bottom:10px;
+		text-shadow:#eee 0 0 15px;
+	}
+
+	.aboutgog:last-child{
+		border-right:0;
+
+	}
+
+
+	/*items and lists*/
+
+	.item{
+		position: relative;
+		border-bottom: 1px solid #ccc;
+		background-color: #e1e1e1;
+		display: block;
+	}
+	.item:last-child{
+		border: none;
+		text-align: center;
+		margin-top: 0;
+		color: #999;
+		font-weight: 400;
+
+	}
+		
+
+	.item img{
+		float:left;
+		width: 200px;
+		height: 120px;
+margin: 0 10px 0 0;
+
+	}
+	.item:after{
+		content:"";
+		display: inline-block;
+		clear:both;
+	}
+
+	.item .content {
+		padding: 10px; 
+	
+	}
+
+	.item .content h3{
+		font-weight: 400;
+		font-size:14px;
+		color:#333;
+		margin-bottom: 0;
+				text-align: left;
+	}
+
+	.item .content .misce {
+		font-weight: 300;
+		font-size:12px;
+		color:#666;
+		margin-bottom: 0;
+	}
+
+	.item .content p{
+		font-weight: 400;
+		font-size:13px;
+		color:#333;
+		margin: 0; 
+
+	}
+
+	.item .list img{
+		float:left;
+		width: 100px;
+		height: 60px;
+		margin-right:10px; 
+	}	
+	
+	.item .listcontent {
+		padding: 5px; 
+		width: 80%;
+	
+	}
+
+	.item .listcontent h3{
+		font-weight: 400;
+		font-size:14px;
+		color:#333;
+		margin-top:0;
+		margin-bottom: 0;
+		text-align: left;
+	}
+
+	.item .clistcontent .misce {
+		font-weight: 300;
+		font-size:12px;
+		color:#666;
+		margin-bottom: 0;
+		text-align: left;
+	}
+
+	.item .listcontent p{
+		font-weight: 300;
+		font-size:12px;
+		color:#999;
+		margin: 0; 
+		text-align: left;
+
+	}
+
+	.listcontent .listprice{
+	position: absolute;
+	right: 0;
+	top:0;
+	padding:10px;
+	text-align: center;
+
+ 
+}
+
+
+
+	/*footer*/
+	.footer{
+		background-color: #262626;
+		color: #999;
+		font-size: 10px;
+		font-weight: 400;
+		padding:10px 0; 
+	}
+
+	
